@@ -17,8 +17,3 @@ function appendKitten(name){
   newArray.push(name)
   return newArray
 };
-function prettenKitten(name){
-  var newArray= kittens.slice();
-  newArray.unshift(name)
-  return newArray
-};
