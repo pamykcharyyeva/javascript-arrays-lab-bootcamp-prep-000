@@ -12,4 +12,4 @@ function destructivelyRemoveLastKitten (name){
   kitten.shift();
   return kitten;
 };
-console.log('kittens:' JSON.stringfy)
+console.log('kittens:' JSON.stringify(kittens));
