@@ -4,7 +4,7 @@ function destructivelyAppendKitten(name){
  kittens.push(name)
  return kittens
 };
-function destructivelyAddElementToBeginning(name){
+function destructivelyAddElementToBeginningOfArray(Kitten){
  kittens.push(name)
  return kittens
 };
