@@ -4,7 +4,7 @@ function destructivelyAppendKitten(name){
  kittens.push(name)
  return kittens
 };
-function destructivelyadd(name){
+function destructivelyaddelementtoth(name){
  kittens.push(name)
  return kittens
 };
