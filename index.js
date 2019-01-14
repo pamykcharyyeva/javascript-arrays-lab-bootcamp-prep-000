@@ -19,6 +19,6 @@ function appendKitten(name){
 };
 function prettenKitten(name){
   var newArray= kittens.slice();
-  newArray.push(name)
+  newArray.push(name);
   return newArray
 };
