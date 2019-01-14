@@ -5,6 +5,6 @@ function destructivelyAppendKitten(name){
  return kittens
 };
 function destructivelyAddElementToBeginningOfArray(Kitten)
- kittens.push(name)
+ kittens.unshift(name)
  return kittens
 };
