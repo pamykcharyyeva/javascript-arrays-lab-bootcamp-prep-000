@@ -12,4 +12,8 @@ function destructivelyRemoveLastKitten (name){
   kitten.shift();
   return kitten;
 };
-console.log('kittens:' JSON.stringify(kittens));
+function appendKitten(name){
+  var newArray = kittens.slice();
+  newArray.push(name)
+  return newArray
+};
